@@ -1,5 +1,0 @@
-.r { background-color: #ff9999; }
-.y { background-color: #cccc00; }
-.g { background-color: #00cc00; }
-#bldgs th { cursor: pointer; }
-td {font-size: 10pt}
