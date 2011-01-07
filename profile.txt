@@ -1,0 +1,19 @@
+Total Elapsed Time = 0.796198 Seconds
+  User+System Time = 0.786198 Seconds
+Exclusive Times
+%Time ExclSec CumulS #Calls sec/call Csec/c  Name
+ 34.0   0.268  0.698     29   0.0092 0.0241  main::make_maps
+ 20.9   0.165  0.282  11608   0.0000 0.0000  DBI::st::fetchrow_hashref
+ 15.1   0.119  0.148  10726   0.0000 0.0000  main::table_content
+ 8.65   0.068  0.068  11608   0.0000 0.0000  DBI::st::fetch
+ 6.36   0.050  0.089      7   0.0071 0.0128  main::BEGIN
+ 6.11   0.048  0.048  11609   0.0000 0.0000  DBI::common::FETCH
+ 2.54   0.020  0.020     59   0.0003 0.0003  HTML::Template::param
+ 1.27   0.010  0.010      1   0.0100 0.0100  DBD::mysql::db::_login
+ 1.27   0.010  0.010      1   0.0100 0.0100  warnings::BEGIN
+ 1.27   0.010  0.010      4   0.0025 0.0025  DynaLoader::dl_load_file
+ 1.27   0.010 -0.000      2   0.0050      -  Exporter::export
+ 1.27   0.010  0.010     10   0.0010 0.0010  vars::import
+ 1.27   0.010  0.010     13   0.0008 0.0008  DBI::BEGIN
+ 1.27   0.010  0.010     60   0.0002 0.0002  DBI::st::execute
+ 1.27   0.010  0.010    168   0.0001 0.0001  Image::Magick::set

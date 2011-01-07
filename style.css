@@ -1,0 +1,149 @@
+body {
+    background-color: #000000;
+    color: #cccccc;
+}
+a {
+    color: #ffffff;
+}
+
+
+/**** map styles ****/
+.nod { background: url(/maps/tiles/backgrounds/nodata.png); }
+#map td {
+    width: 32px !important;
+    height: 32px !important;
+    color: #666666;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.xy {
+    color: #000000 !important;
+    background-color: #cccccc;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+}
+#map img {
+    border: 0;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.vir {
+    background-color: #00ff00;
+    color: #00ff00 !important;
+}
+.em {
+    background-color: #00cc00;
+    color: #00cc00 !important;
+}
+.emax {
+    background-color: #115588;
+    color:  #115588 !important;
+}
+.energy {
+    background-color: #0e2944;
+    color: #0e2944 !important;
+}
+.ast {
+    background-color: #cccccc;
+    color: #cccccc !important;
+}
+.neb {
+    background-color: #cc0000;
+    color: #cc0000 !important;
+}
+.spa {
+    background-color: #000000;
+    color: #000000 !important;
+}
+.sb {
+    background-color: #cc9933;
+    color: #cc9933 !important;
+}
+
+
+.cluster {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.x32 {
+    /* images, 32x32 pixels */
+    width: 32px !important;
+    height: 32px !important;
+}
+
+
+#apcalc_result { border: 1px solid #ffffcc; }
+
+
+/**** universe map styles ****/
+
+#universe td {
+    width: 5em;
+    height: 1em;
+    text-align: center;
+    font-size: 80%;
+}
+
+div#nav {
+    position:fixed;
+    top:40px;
+    left:8px;
+    width:170px;
+    background-color:#404040;
+    border-right:1px dashed black;
+    opacity:0.2;
+}
+div#navbutton {
+    position: fixed;
+    top: 20px;
+    left: 8px;
+    background-color:#404040;
+    border-right:1px dashed black;
+    opacity: 0.7;
+}
+div#nav:hover {
+    position:fixed;
+    opacity:1.0;
+}
+div#nav b {
+    display:list-item;
+    list-style-type:none;
+    border:1px solid #808080;
+    text-transform:capitalize;
+    font-variant:small-caps;
+    padding-left:5px;
+}
+div#nav a{
+    display:list-item;
+    list-style-type:none;
+    background-color:wheat;
+    color:black;
+    border:1px solid black;
+    padding:1px;
+    margin:2px;
+    outline:2px solid #D8E3D7;
+}
+div#nav a:hover {
+    background-color:white;
+}
+div#nav > div div.side {
+    display:none;
+}
+div#nav > div:hover div.side {
+    display:block;
+    position:fixed;
+    top:20px;
+    left:179px;
+    padding:60px 60px 60px 20px;
+    margin:-60px -60px -60px -20px;
+}
+a.r { /* r=reflink */
+    padding:350px;
+    margin:-350px;
+    display:block;
+}
+

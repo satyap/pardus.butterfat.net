@@ -1,0 +1,3 @@
+Options +indexes +includesnoexec
+AddType text/xml .rdf
+AddType application/x-xpinstall .xpi

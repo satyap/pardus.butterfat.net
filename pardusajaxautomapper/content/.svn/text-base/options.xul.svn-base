@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<prefwindow id="pardusajaxautomapperPreferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="Preferences for Pardus Ajax Automapper">
+  <prefpane id="pane1" label="File write path">
+    <!-- preferences>
+      <preference id="stringpref1" name="extensions.pardusautomapper.filewritepath" type="unichar"/> 
+    </preferences>
+    <label control="textstringpref">Path to write to:</label><textbox id="textstringpref" preference="stringpref1"/ -->
+  </prefpane>
+</prefwindow>

@@ -1,0 +1,4 @@
+content pardusajaxautomapper content/
+locale	pardusajaxautomapper	en-US	locale/en-US/
+skin	pardusajaxautomapper	classic/1.0	skin/
+overlay chrome://browser/content/browser.xul chrome://pardusajaxautomapper/content/overlay.xul

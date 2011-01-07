@@ -1,0 +1,4 @@
+#SetHandler fastcgi-script
+#AddHandler fastcgi-script .fcgi .fpl .pl
+AddHandler cgi-script .pl
+Options -Indexes +ExecCGI

@@ -1,0 +1,23 @@
+Content-type: text/html
+
+<!-- tmpl_include name=header.pl -->
+<ul>
+<!-- tmpl_loop name=classes -->
+<li><!-- tmpl_var name=count --> Class <!-- tmpl_var name=class --></li>
+<!-- /tmpl_loop name=classes -->
+</ul>
+
+<!-- tmpl_loop name=classes -->
+<h1><!-- tmpl_var name=count --> Class <!-- tmpl_var name=class --></h1>
+<table>
+    <!-- tmpl_loop name=list -->
+    <tr>
+        <td><!-- tmpl_var name=cluster --></td>
+        <td><!-- tmpl_var name=sector --></td>
+        <td><!-- tmpl_var name=planet --></td>
+    </tr>
+<!-- /tmpl_loop name=list -->
+</table>
+<!-- /tmpl_loop name=classes -->
+</body>
+</html>

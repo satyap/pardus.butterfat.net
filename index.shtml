@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>
+            Pardus automapper
+        </title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <body>
+            <h1>Pardus Auto-mapper</h1>
+            <p>
+            <a href="news.shtml">News</a>
+            </p>
+            <!--#include virtual="pp.shtml" -->
+            <p>
+            This is the home page of the <a href="http://www.pardus.at/">Pardus</a> auto-mapper.
+            </p>
+            <p>
+            The automapper is a map tool for the 
+            <a href="http://www.pardus.at/">Pardus</a> game. 
+            It is a Firefox
+            extension that you run while navigating around the
+            game.
+            It automatically picks up a snapshot of the nav screen
+            (and nothing else, honest, look at the code) and sends it to this
+            server, where we generate nice maps and lists:
+            </p>
+            <p>
+            Orion:
+            <a href="/pardusmapper/maps/orion/sectors.html">Sector list</a>
+            <a href="/pardusmapper/maps/orion/universe.html">Universe map</a>
+            <a href="/pardusmapper/maps/orion/locations.html">SBs and planets</a>
+            <br/>
+            Artemis:
+            <a href="/pardusmapper/maps/artemis/sectors.html">Sector list</a>
+            <a href="/pardusmapper/maps/artemis/universe.html">Universe map</a>
+            <a href="/pardusmapper/maps/artemis/locations.html">SBs and planets</a>
+            <br/>
+            Pegasus:
+            <a href="/pardusmapper/maps/pegasus/sectors.html">Sector list</a>
+            <a href="/pardusmapper/maps/pegasus/universe.html">Universe map</a>
+            <a href="/pardusmapper/maps/pegasus/locations.html">SBs and planets</a>
+            </p>
+            <p>
+            <a href="/pardusmapper/fcgi/planets.pl">Planet stats</a>
+            </p>
+
+            <p>
+            You have to turn it on, and you can turn it off -- so no one else
+            can see what's in your faction's secret nook, for example. Be
+            aware, once a screen is in here it stays here.
+            </p>
+
+            <p>
+            It only runs on a fairly new version of Firefox at this time.
+            </p>
+
+            <p>
+            The extension: <a href="pardusajaxautomapper.xpi">Pardus Ajax Automapper</a>
+            </p>
+
+
+            <h2>Instructions</h2>
+            <p>To install, activate the link (above) in Firefox. Firefox should do the rest.</p>
+            <p>Sorry, the extension does NOT work with Internet Explorer or any
+            other browser, as far as we know. Nor do we care. If you get it to
+            work, great! If you send us instructions on how to get it to work,
+            great, we'll post them!</p>
+            <p>
+            You should have a new option in the Tools menu.
+            </p>
+            <p>When you click it to start, it pops up a message: Starting
+            Pardus Automapper. When you stop it, it pops up a message: Stopping
+            Pardus Automapper, and a number. Don't worry about the number, it's
+            just the number of nav screen snapshots that were left to send.</p>
+            <p>
+            The maps on this site are automatically updated every 15 minutes
+            based on data received from players using the extension.
+            </p>
+            <p>
+            The maps have a route calculator feature. Select the
+            type of engine, and then click your starting point, and then click
+            your ending point. It will attempt to calculate the least-cost
+            route. It ignores the presence of monsters.
+            </p>
+
+            <h2>Props</h2>
+            <p>
+            Props to "Pants Commander" (don't ask me) whose work 
+            <a href="http://www.freewebs.com/darmani/">Darmani</a> extended,
+            whose work we extended. They did the automapper, we optimised it
+            and made it report to a server instead of a file. Much work on the
+            server side to produce the maps and images. Many man-hours of
+            programming in Perl. And Javascript. Props to Larry Wall too.
+            </p>
+
+            <p>
+            Props also to 
+            <a href="http://www.thebluesuncorporation.com/">Blue Sun
+                Corporation</a>, who helped and inspired all map-makers and
+            whose universe coordinates we have borrowed. Their <a
+                href="http://www.thebluesuncorporation.com/pardusmap/">Pardus
+                map</a> helped us a lot in our exploration of Pardus.
+            </p>
+
+            <p>
+            Props to members of T.I.R.O. who patiently listened to our ranting
+            and raving as we programmed the back-end scripts and the
+            route-finder function. T.I.R.O. also helped with valuable testing
+            and contributed much of the initial maps here.
+            </p>
+
+            <p>
+            Props to 
+            <a href="http://en.wikipedia.org/wiki/Edsger_Dijkstra">Edsger Dijkstra</a>
+            for the 
+            <a href="http://en.wikipedia.org/wiki/Dijkstra's_algorithm">least-cost-routing algorithm</a>. 
+            Also to 
+            <a href="http://www.nasaexplores.com/">NASA Explores</a>,
+            for the PDF which told us how to calculate a path from known
+            distances.
+            Also to 
+            <a href="http://www.cs.usask.ca/resources/tutorials/csconcepts/1999_8/tutorial/advanced/dijkstra/dijk_descrip.html">some tutorial at some Canadian university</a> for furthering our understanding of Dijkstra's algorithm.
+            </p>
+
+            <p>
+            Props to Piotr Rorot for the idea of, and showing me example code
+            for, the funky sector selection list on the universe map pages.
+            </p>
+
+            <p>
+            And of course, to the <a href="http://www.pardus.at/">Pardus</a> programmers!
+            </p>
+
+            <p>With the new Aperture, thanks to Takius Stargazer, Lancel,
+            Nebulosa, Stewb, Bishop, Lysin, Tovarisch Kapitan, 
+            and others unnamed, for
+            sector locations.</p>
+
+            <p>
+            No thanks whatsoever to the griefers.
+            </p>
+
+            <p>
+            PS: We are pardus@butterfat.net
+            </p>
+
+        </body>
+    </html>

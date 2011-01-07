@@ -1,0 +1,35 @@
+<!-- tmpl_include name="header.pl" -->
+<form>
+Show 
+<select name="monster">
+    <option value=""></option>
+    <!-- tmpl_loop name="monsters" -->
+    <option value="<!-- tmpl_var name=id -->" <!-- tmpl_var name="selected" -->><!-- tmpl_var name=name --></option>
+    <!-- /tmpl_loop name="monsters" -->
+</select>
+in
+<select name="cluster">
+    <option value=""></option>
+    <!-- tmpl_loop name="clusters" -->
+    <option value="<!-- tmpl_var name=id -->" <!-- tmpl_var name="selected" -->><!-- tmpl_var name=name --></option>
+    <!-- /tmpl_loop name="clusters" -->
+</select>
+
+<input type="submit" value="Now" />
+</form>
+
+<!-- tmpl_if name=monsterlist -->
+<!-- tmpl_loop name=monsterlist -->
+
+<!-- tmpl_if name=list -->
+<!-- tmpl_var name=name --> in <!-- tmpl_var name=sector -->
+<table border="1">
+    <!-- tmpl_loop name=list --><tr>
+        <td><!-- tmpl_var name=lastseen --></td>
+        <td><!-- tmpl_var name=x -->,<!-- tmpl_var name=y --></td>
+    </tr><!-- /tmpl_loop name=list -->
+</table>
+<!-- /tmpl_if name=list -->
+
+<!-- /tmpl_loop name=monsterlist -->
+<!-- /tmpl_if name=monsterlist -->

@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>
+            Pardus automapper - News
+        </title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <body>
+            <p><a href="index.shtml">Pardus auto-mapper home</a></p>
+            <!--#include virtual="pp.shtml" -->
+
+            <h1>Pardus Auto-mapper News</h1>
+            <p>
+            20091113: The mapper isn't compatible with the Pardus Copilot. They
+            can be installed together, but if the Copilot is set to show
+            summary on nav screen, the mapper won't work.
+            </p>
+            <p>
+            20090924: Version 1.4 has had the sodding gridSize alert removed.
+            </p>
+            <p>
+            20090917: Version 1.3 claims to be compatible up to Firefox 4.5
+            (that's right, *four* point five). So stop emailing me. I don't
+            have Firefox 3.5beta because sodding Ubuntu doesn't have it yet.
+            Sod it all.
+            </p>
+            <p>
+            20090610: Version 1.2 of the automapper has been released. All it
+            does is fix a sodding annoying alert box that insinuated itself
+            into version 1.1. Those responsible have done the honorable thing.
+            Replacements have been found.
+            </p>
+            <p>
+            20090517: Version 1.1 of the automapper has been released. It
+            should be able to handle the sodding Premium variable navgrid. Sod
+            it all.
+            <p>
+            20090505: <a href="autopilot.shtml">Pardus Autopilot</a> is less
+            automatic now, which may make it okay to use.
+            </p>
+            <p>
+            20090504:
+            <a href="pardus_pathfinder.user.js">Pardus Pathfinder</a> Version
+            1.2 is out. Fixes the @*%# Premium navgrid (probably, as I can't
+            test it). Sodding chumps. Get off my lawn. Props to "Pants".
+            </p>
+            <p>
+            20090428:
+            <a href="autopilot.shtml">Pardus Autopilot</a> has been improved
+            </p>
+            <p>
+            20090426:
+            <a href="autopilot.shtml">Pardus Autopilot</a>
+            Greasemonkey script. Do not use unless you have permission from the
+            owners of Pardus.
+            </p>
+            <p>
+            20090425: <a href="pardus_pathfinder.user.js">Pardus Pathfinder</a> 
+            Greasemonkey 
+            script. Up until 3:15 in the morning this time. You sodding chumps.
+            UPDATED: Now does better routing, and shows AP cost.
+            </p>
+                <p>
+                20090405 version 1.0 released. The sodding HTML changes have
+                caused me to stay up late at night, you sodding chumps. It is
+                now bloody 4 in the morning. Apparently I turn British in the
+                wee hours.
+                </p>
+                <p>
+                20080802 Version 0.93 released. The annoying starting and stopping messages have been removed.
+                </p>
+                <p>
+                20080622 Version 0.92 released which really should work with Firefox 3. (I got stupid with 0.91 -- it *cannot* work.)
+                </p>
+                <p>
+                20080618 Version 0.91 released which should work with Firefox 3.
+                </p>
+                <p>
+                20080423 
+                <a href="pbs.html">Pardus Butter Stocker</a> new extension released today.
+                See the <a href="pbs.html">PBS project page</a>.
+                </p>
+                <p>
+                20080422 New version of the mapper extension released! It works
+                with Firefox 3 but automatic updates are still iffy. Darn you,
+                Mozilla Corp for making it too hard! <a href="pardusajaxautomapper-0.9.xpi">Version 0.9</a>
+                </p>
+                <p>
+                20080416
+                <a href="pardusmapper/fcgi/planets.pl">Planet stats</a>
+                </p>
+                <p>
+                20080203 Another greasemonkey script:
+                <a href="pardustradecalc.html">Own building ticks</a>
+                </p>
+                <p>
+                20080110 new! 
+                <a href="pardustradecalc.html"> Trade helper calculator thingy.  </a>
+                </p>
+                <p>
+                20071225 Artemis now has the tutorial sectors fully mapped.
+                </p>
+                <p>
+                20071224 There are currently over 465 thousand rows in the
+                tiles table. 5681 are asteroid, 2548 are viral clouds. Over 218
+                thousand are
+                impassable energy, and over 126 thousand are passable energy.
+                Over 29 thousand are nebula and over 81
+                thousand are fuel. We have just implemented an algorithm (Lucidi, this time) 
+                to remove the superfluous impassable energy tiles, i.e. the ones that are far beyond the border of the sector.
+                At this time we estimate there are nearly 110 thousand extra tiles that can be removed.
+                </p>
+                <p>
+                20071224 The building, monster, wormhole icons etc. were
+                resized and filtered by the Imagemagick Perl modules. Since
+                those algorithms (Borg Algorithms! Borg Algorithms!) are meant
+                for larger images, you got "blurring" on the small 32x32 icons
+                -- it was just imagemagick's attempt to look nice. Well, no
+                more resizing. Now your browser can do the resizing, you get
+                the original 64x64 files, and bandwidth be hanged. At least the
+                images look sharper. If you think they look uglier now, as do
+                I, blame the people who kept whining that it looked blurred
+                before.
+                </p>
+                <p>
+                New feature: <a href="http://pardus.butterfat.net/pardusmapper/fcgi/spawns.pl">monster locations</a>
+                </p>
+
+                <p> Is anyone still using the butterfat maps, or has their function been surpassed by BSC, Eldritch, etc? Should we shut this down?</p>
+                <hr/>
+        </body>
+    </html>

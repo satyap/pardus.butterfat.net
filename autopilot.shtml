@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            Pardus autopilot
+        </title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <body>
+            <p><a href="index.shtml">Pardus auto-mapper home</a></p>
+            <!--#include virtual="pp.shtml" -->
+
+            <h1>Pardus Autopilot</h1>
+
+            <p>Greasemonkey script. You need Firefox and the greasemonkey
+            extension.
+            </p>
+            <p>
+            <a href="pardus_autopilot.user.js">Pardus Autopilot</a> v1.2
+            </p>
+
+            <p>
+            Once you load it up, you should get a text box, a couple buttons,
+            and a drop-down on the left. First, type in a name for the course
+            and then click the "lay in course" button. Follow the route you
+            want in Pardus, within a sector. Wormhole jumps are not supported
+            yet. At the end, click the "finish course" button.  </p>
+            <p>
+            Now the course you laid in should show up the in drop-down box.
+            When you're on the tile you started on, click the "Engage" button
+            and it will give you an "autopilot step" button, click the button
+            at each step along the route.
+            </p>
+            <p> You can have as many
+            routes as you want, but each route will be within a single sector.
+            Wormhole jumps are not supported (yet).
+            </p>
+            <p>
+            TODO: Ability to reset the memory, maybe
+            ability to save and share courses (you can copy the lines from
+            user.js or about:config, so this won't be done). Multi-sector
+            autopilot
+            ability.
+            </p>
+
+            <hr/>
+            Changelog:
+            <ul>
+                <li>
+20090505: Version 1.2: Based on feedback from 'Pants', added an autopilot
+step button instead of a fully-automatic course follower.
+
+                </li>
+                <li>20090428: Added a way to delete courses, and made the block blend in a little under the Cargo panel.</li>
+                <li>20090426: First release.</li>
+            </ul>
+
+
+        </body>
+    </html>

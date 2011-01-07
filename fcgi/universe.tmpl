@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>
+Pardus sector maps
+</title>
+<link type="text/css" rel="stylesheet" href="../../style.css" />
+<style type="text/css">
+    a { font-size: 8pt; }
+    table {
+        padding: 0;
+        margin: 0;
+    }
+    td {
+        color: #000000;
+    }
+ <!-- tmpl_loop name=colors -->
+  .c<!-- tmpl_var name=key --> { color: #<!-- tmpl_var name=color -->; background-color: #<!-- tmpl_var name=bgcolor -->; }
+  .c<!-- tmpl_var name=key --> td { color: #<!-- tmpl_var name=color -->; }
+  .c<!-- tmpl_var name=key --> a { color: #<!-- tmpl_var name=color -->; }
+ <!-- /tmpl_loop name=colors -->
+</style>
+</head>
+<body>
+        <!-- tmpl_include name=header.pl -->
+        <!--[if IE]><div style="position:absolute"><![endif]-->
+            <div id="navbutton">
+                <a href="#" onclick="document.getElementById('nav').style.display='block';document.getElementById('navbuttonh').style.display='inline';document.getElementById('navbuttons').style.display='none';" id="navbuttons">Show menu</a>
+                <a href="#" onclick="document.getElementById('nav').style.display='none';document.getElementById('navbuttonh').style.display='none';document.getElementById('navbuttons').style.display='inline';" id="navbuttonh" style="display: none">Hide menu</a>
+            </div>
+            <div id="nav" style="display: none">
+                <!-- tmpl_loop name=clusterlist -->
+            <div><a href="#<!-- tmpl_var name=anchor -->"><!-- tmpl_var name=cluster --></a>
+                <div class="side"><!-- tmpl_loop name=sectorlist -->
+                    <a href="#<!-- tmpl_var name=name -->"><!-- tmpl_var name=realname --></a><!-- /tmpl_loop -->
+            </div></div>
+            <!-- /tmpl_loop name=clusterlist -->
+        </div>
+        <!--[if IE]></div><![endif]-->
+
+<table border="1" id="universe" cellspacing="0" cellpadding="0">
+<!-- tmpl_var name=tbl -->
+</table>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://pardusajaxautomapper/skin/overlay.css" type="text/css"?>
+<overlay id="pardusajaxautomapper-overlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="overlay.js"/>
+
+
+ <menupopup id="menu_ToolsPopup">
+  <menuitem id="pardusajaxautomapper_start" label="Start Pardus Butterfat Mapper"
+    oncommand="PardusAjaxAutoMapper.start()"/>
+  <menuitem id="pardusajaxautomapper_end" label="Stop Pardus Butterfat Mapper"
+    oncommand="PardusAjaxAutoMapper.finish();" style="display: none" />
+  </menupopup>
+  <!-- statusbar id="status-bar">
+  <statusbarpanel id="pardusajaxmapperoff" label="Pardusmapper"
+      tooltiptext="Pardus AJAX Automapper is stopped"
+      onclick="PardusAjaxAutoMapper.start();"
+      style="color: #666666"
+      />
+  <statusbarpanel id="pardusajaxmapperon" label="Pardusmapper"
+      tooltiptext="Pardus AJAX Automapper is running"
+      onclick="PardusAjaxAutoMapper.finish();"
+      style="color: #cc0000; display: none;"
+      />
+  </statusbar -->
+</overlay>
